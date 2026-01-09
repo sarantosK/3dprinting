@@ -1,0 +1,38 @@
+/* luxury.css - The Old Money Overhaul */
+
+/* Import elegant fonts from Google */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap');
+
+body, p, a, div {
+    font-family: 'Cormorant Garamond', serif !important;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 700;
+    color: #1a1a1a !important; /* Almost Black */
+}
+
+/* Make the buttons look expensive */
+.btn-primary {
+    background-color: #1a1a1a !important;
+    border-color: #1a1a1a !important;
+    color: #d4af37 !important; /* Gold Text */
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 0px !important; /* Sharp edges are more elegant */
+}
+
+.btn-primary:hover {
+    background-color: #d4af37 !important; /* Gold Background */
+    color: #000 !important;
+}
+
+/* Remove cheap looking shadows */
+.card {
+    border: 1px solid #eee !important;
+    box-shadow: none !important;
+}
