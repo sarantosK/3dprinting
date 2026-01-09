@@ -1,0 +1,22 @@
+.site-header {
+  position: relative;
+  isolation: isolate;
+}
+
+.site-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/images/vancroft-logo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.15;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.site-header > * {
+  position: relative;
+  z-index: 1;
+}

@@ -1,38 +1,73 @@
-/* luxury.css - The Old Money Overhaul */
+/* luxury.css - Vancroft Old Money Rebrand */
 
-/* Import elegant fonts from Google */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap');
+/* 1. Typography */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Playfair+Display:wght@400;600;700&display=swap');
 
-body, p, a, div {
+body {
+    background-color: #FAFAF5 !important; /* Cream Background */
+    color: #1A1A1A !important; /* Deep Charcoal Text */
     font-family: 'Cormorant Garamond', serif !important;
-    font-size: 18px;
-    letter-spacing: 0.5px;
+    font-size: 19px;
+    line-height: 1.6;
 }
 
 h1, h2, h3, h4, h5, h6, .navbar-brand {
     font-family: 'Playfair Display', serif !important;
+    color: #1A1A1A !important;
     font-weight: 700;
-    color: #1a1a1a !important; /* Almost Black */
+    letter-spacing: -0.5px;
 }
 
-/* Make the buttons look expensive */
-.btn-primary {
-    background-color: #1a1a1a !important;
-    border-color: #1a1a1a !important;
-    color: #d4af37 !important; /* Gold Text */
+/* 2. Navigation Bar */
+.navigation, .navbar, header {
+    background-color: #FAFAF5 !important;
+    border-bottom: 1px solid #e0e0dc;
+}
+
+.nav-link, .navbar-nav .nav-link {
+    color: #1A1A1A !important;
     font-family: 'Playfair Display', serif;
-    letter-spacing: 2px;
+    font-weight: 600;
     text-transform: uppercase;
-    border-radius: 0px !important; /* Sharp edges are more elegant */
+    letter-spacing: 1px;
+    font-size: 14px;
 }
 
-.btn-primary:hover {
-    background-color: #d4af37 !important; /* Gold Background */
-    color: #000 !important;
+/* 3. Luxury Buttons */
+.btn, .btn-primary, button, input[type="submit"] {
+    background-color: #1A1A1A !important;
+    color: #C5A059 !important; /* Muted Gold Text */
+    border: 1px solid #1A1A1A !important;
+    border-radius: 0px !important; /* Sharp corners */
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px 25px;
+    transition: all 0.3s ease;
 }
 
-/* Remove cheap looking shadows */
-.card {
+.btn:hover, .btn-primary:hover {
+    background-color: #C5A059 !important; /* Gold Background */
+    color: #1A1A1A !important; /* Black Text */
+    border-color: #C5A059 !important;
+}
+
+/* 4. Product Cards */
+.card, .product-item {
+    background-color: #fff !important; /* Slight contrast for products */
     border: 1px solid #eee !important;
     box-shadow: none !important;
+}
+
+.product-title, .card-title {
+    font-family: 'Playfair Display', serif;
+}
+
+/* 5. Footer */
+footer, .footer {
+    background-color: #1A1A1A !important;
+    color: #FAFAF5 !important;
+}
+footer a, .footer a {
+    color: #C5A059 !important;
 }
