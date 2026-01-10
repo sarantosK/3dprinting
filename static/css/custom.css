@@ -1,3 +1,9 @@
+/* VANCROFT CUSTOM OVERRIDES */
+/* FINAL HEADER FIX */
+
+/* ------------------------------------------------*/
+/* 1. HEADER & BACKGROUND SETUP */
+/* ------------------------------------------------*/
 .site-header {
   position: relative;
   isolation: isolate;
@@ -7,6 +13,7 @@
   content: "";
   position: absolute;
   inset: 0;
+  /* Ensure this background image is subtle */
   background-image: url("/images/vancroft-logo.png");
   background-position: center;
   background-size: contain;
@@ -20,11 +27,40 @@
   position: relative;
   z-index: 1;
 }
-/* --- VANCROFT OVERRIDES --- */
-/* Placing this in custom.css ensures it loads LAST and beats all other styles */
 
-/* 1. BUTTONS: KILL THE BRIGHT GREEN GRADIENT */
-/* The theme uses 'background-image' for gradients. We must set it to 'none'. */
+/* ------------------------------------------------*/
+/* 2. COLOR PALETTE SWAP */
+/* ------------------------------------------------*/
+
+/* HEADINGS (The "Black" elements -> Now Silver) */
+/* NOTE: I removed .navbar-brand from here explicitly */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+strong, b,
+.card-title,
+.btn {
+    color: #ededed !important; /* Silver */
+}
+
+/* BODY TEXT (The "Silver" elements -> Now Sage Green) */
+body, p, li, span, div, .content {
+    color: #B7C9A9 !important; /* Sage Green */
+}
+
+/* LINKS & NAVIGATION */
+/* Normal state: Green */
+a, .nav-link {
+    color: #B7C9A9 !important; 
+}
+
+/* Hover state: Silver */
+a:hover, .nav-link:hover {
+    color: #ededed !important; 
+}
+
+/* ------------------------------------------------*/
+/* 3. BUTTONS: KILL BRIGHT GREEN & GRADIENTS */
+/* ------------------------------------------------*/
 
 .btn, 
 .btn-primary, 
@@ -32,43 +68,36 @@
 .btn-light {
     background-image: none !important;
     background-color: #B7C9A9 !important; /* Sage Green */
-    border-color: #B7C9A9 !important;
-    color: #ffffff !important;
+    border-color: #ededed !important; /* Silver Borders */
+    color: #ffffff !important; /* Text White */
     box-shadow: none !important;
 }
 
-/* Button Hover Effects - Turning Earth Brown */
 .btn:hover, .btn:active, .btn:focus,
-.btn-primary:hover, .btn-primary:active, .btn-primary:focus,
-.btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:focus {
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
     background-image: none !important;
     background-color: #7B5E4A !important; /* Earth Brown */
-    border-color: #7B5E4A !important;
+    border-color: #ededed !important;
     color: #ffffff !important;
 }
 
-/* 2. TEXT ARROWS & ICONS */
-/* This targets the "ti-arrow-circle-right" arrows in your lists */
-.text-primary {
-    color: #B7C9A9 !important;
-}
+/* ------------------------------------------------*/
+/* 4. DETAILS: ARROWS, SLIDERS & ICONS */
+/* ------------------------------------------------*/
 
-/* 3. SLIDER ARROWS (Left/Right controls) */
+.text-primary,
 .slick-arrow, 
 .slick-prev, 
-.slick-next {
-    color: #B7C9A9 !important; /* Makes the arrow icon Sage Green */
+.slick-next,
+.content ul li::before {
+    color: #B7C9A9 !important; 
 }
 
-/* Hovering over slider arrows */
 .slick-arrow:hover, 
 .slick-prev:hover, 
 .slick-next:hover {
-    color: #7B5E4A !important; /* Earth Brown on hover */
+    color: #7B5E4A !important; 
 }
-
-/* 4. OTHER BRIGHT GREEN ELEMENTS */
-/* This catches borders on images, active pagination dots, and input borders */
 
 .border-primary, 
 .img-border::before,
@@ -78,7 +107,6 @@
     border-color: #B7C9A9 !important;
 }
 
-/* Pagination Dots (Active) */
 .pagination .page-item.active .page-link,
 .slick-dots li.slick-active button:before {
     background-color: #B7C9A9 !important;
@@ -86,13 +114,32 @@
     color: #ffffff !important;
 }
 
-/* List Bullets (The small icons next to list items) */
-.content ul li::before {
-    color: #B7C9A9 !important;
+/* ------------------------------------------------*/
+/* 5. BRANDING FIX (THE "WHITE" NAME) */
+/* ------------------------------------------------*/
+
+/* Target the brand link AND any text inside it (bold, span, strong) */
+.navbar-brand,
+.navbar-brand a,
+.navbar-brand b,
+.navbar-brand strong,
+.navbar-brand span,
+a.navbar-brand {
+    color: #ffffff !important;    /* Force Pure White */
+    font-size: 35px !important;   
+    font-weight: 700 !important;  
+    text-transform: uppercase;    
+    letter-spacing: 2px;          
+    opacity: 1 !important;
 }
 
-/* Background Gradients (The strip behind 'Buy One Get One' section) */
-.bg-gradient {
-    background: #B7C9A9 !important;
-    background-image: none !important;
+/* IF YOU ARE STILL USING AN IMAGE LOGO: This turns it white */
+.navbar-brand img {
+    filter: brightness(0) invert(1) !important;
+}
+
+/* Hover State */
+.navbar-brand:hover,
+.navbar-brand:hover * {
+    color: #ffffff !important;
 }

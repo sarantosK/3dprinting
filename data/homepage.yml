@@ -2,7 +2,7 @@
 banner:
   enable : true
   # CHANGED: "Engineering" sounds safer and more premium than "Printing".
-  title : "Vancroft: Advanced Engineering Solutions"
+  title : " Advanced Engineering Solutions"
   # CHANGED: Focus on the result (integrity, accuracy), not the machine.
   content : "Industrial-grade rapid prototyping and custom fabrication. We deliver absolute dimensional accuracy, material certification, and structural integrity for critical engineering applications."
   image : "images/banner.png" 
