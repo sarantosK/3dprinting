@@ -1,73 +1,164 @@
-/* luxury.css - Vancroft Old Money Rebrand */
+/* Vancroft Modern - Industrial Theme */
+/* FINAL "NUCLEAR" ATTEMPT TO OVERRIDE EVERYTHING */
 
-/* 1. Typography */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Playfair+Display:wght@400;600;700&display=swap');
+:root {
+    /* --- COLOR PALETTE --- */
+    --color-green: #B7C9A9;       /* The "Sage Green" */
+    --color-white: #ffffff;
+    --color-dark-grey: #7B5E4A;   /* The "Earth Brown" Background */
+    --color-silver: #d3d3d3;
+    
+    /* Button Base Colors */
+    --color-accent-green: #B7C9A9; 
+}
 
+/* 1. Global Reset & Body */
 body {
-    background-color: #FAFAF5 !important; /* Cream Background */
-    color: #1A1A1A !important; /* Deep Charcoal Text */
-    font-family: 'Cormorant Garamond', serif !important;
-    font-size: 19px;
+    background-color: var(--color-dark-grey) !important;
+    color: var(--color-silver) !important;
+    font-family: 'Cormorant Garamond', serif !important; 
     line-height: 1.6;
 }
 
+/* Headers */
 h1, h2, h3, h4, h5, h6, .navbar-brand {
+    color: var(--color-white) !important;
     font-family: 'Playfair Display', serif !important;
-    color: #1A1A1A !important;
-    font-weight: 700;
-    letter-spacing: -0.5px;
+    letter-spacing: 0.5px;
 }
 
 /* 2. Navigation Bar */
 .navigation, .navbar, header {
-    background-color: #FAFAF5 !important;
-    border-bottom: 1px solid #e0e0dc;
+    background-color: var(--color-green) !important;
+    border-bottom: 1px solid var(--color-silver); 
 }
 
 .nav-link, .navbar-nav .nav-link {
-    color: #1A1A1A !important;
-    font-family: 'Playfair Display', serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 14px;
+    color: var(--color-white) !important;
+    transition: color 0.3s ease;
 }
 
-/* 3. Luxury Buttons */
+.nav-link:hover, .navbar-nav .nav-link:hover {
+    color: var(--color-dark-grey) !important;
+}
+
+/* 3. GENERAL BUTTONS */
 .btn, .btn-primary, button, input[type="submit"] {
-    background-color: #1A1A1A !important;
-    color: #C5A059 !important; /* Muted Gold Text */
-    border: 1px solid #1A1A1A !important;
-    border-radius: 0px !important; /* Sharp corners */
-    font-family: 'Playfair Display', serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 12px 25px;
+    background-color: var(--color-accent-green) !important;
+    color: var(--color-white) !important;
+    border: 1px solid var(--color-accent-green) !important;
+    border-radius: 0px !important; 
+    text-transform: uppercase; 
     transition: all 0.3s ease;
 }
 
 .btn:hover, .btn-primary:hover {
-    background-color: #C5A059 !important; /* Gold Background */
-    color: #1A1A1A !important; /* Black Text */
-    border-color: #C5A059 !important;
+    background-color: var(--color-dark-grey) !important;
+    color: var(--color-white) !important;
+    border-color: var(--color-white) !important;
 }
+
+/* --- SECTION 3.5: THE "NUCLEAR" FIX FOR STUBBORN BUTTONS --- */
+/* By adding "body" before the class name, we make this rule 
+   much stronger than standard rules. */
+
+body .btn-white,
+body .btn.btn-white,
+body .btn-solid-border,
+section .btn.btn-white {
+     /* Force the Green background and White Text */
+     background-color: var(--color-accent-green) !important;
+     color: var(--color-white) !important;
+     /* Adding a white border so they pop */
+     border: 2px solid var(--color-white) !important; 
+     opacity: 1 !important;
+     box-shadow: none !important; /* Remove any pre-existing shadows */
+}
+
+/* Hover state for these buttons */
+body .btn-white:hover,
+body .btn.btn-white:hover,
+body .btn-solid-border:hover {
+     background-color: var(--color-dark-grey) !important; /* Brown on hover */
+     color: var(--color-white) !important;
+     border-color: var(--color-white) !important;
+}
+
 
 /* 4. Product Cards */
 .card, .product-item {
-    background-color: #fff !important; /* Slight contrast for products */
-    border: 1px solid #eee !important;
-    box-shadow: none !important;
+    background-color: var(--color-green) !important;
+    border: 1px solid #ffffff !important;
+    color: var(--color-white) !important;
 }
 
-.product-title, .card-title {
-    font-family: 'Playfair Display', serif;
+.card-title, .product-title {
+    color: var(--color-white) !important;
 }
 
 /* 5. Footer */
 footer, .footer {
-    background-color: #1A1A1A !important;
-    color: #FAFAF5 !important;
+    background-color: var(--color-green) !important;
+    color: var(--color-silver) !important;
+    border-top: 1px solid #333333;
 }
+
 footer a, .footer a {
-    color: #C5A059 !important;
+    color: var(--color-white) !important;
+    text-decoration: none;
+}
+
+/* --- SECTION 6: FIXING THE ARROWS AND SLIDERS --- */
+
+/* 6.1 The Banner Arrows (Left/Right) */
+/* Examples: The arrows on the main homepage banner */
+.slick-arrow,
+.slick-prev,
+.slick-next,
+.owl-prev,
+.owl-next {
+    /* Make the arrow box Green */
+    background-color: var(--color-green) !important;
+    border: 1px solid var(--color-white) !important;
+    opacity: 1 !important;
+}
+
+/* The actual arrow shape inside the box */
+.slick-arrow::before,
+.slick-prev::before,
+.slick-next::before,
+.owl-prev i, 
+.owl-next i {
+     color: var(--color-white) !important; /* Make the arrow icon white */
+     opacity: 1 !important;
+}
+
+/* Hovering over arrows */
+.slick-arrow:hover,
+.slick-prev:hover,
+.slick-next:hover,
+.owl-prev:hover, 
+.owl-next:hover {
+    /* Turn Brown on hover */
+    background-color: var(--color-dark-grey) !important; 
+    border-color: var(--color-white) !important;
+}
+
+
+/* 6.2 The Slider Dots (Pagination circles at bottom of sliders) */
+.slick-dots li button:before,
+.owl-dots .owl-dot span {
+    /* Inactive dots are transparent white */
+    color: var(--color-white) !important; 
+    background: var(--color-white) !important;
+    opacity: 0.5 !important;
+}
+
+/* The active (current) dot */
+.slick-dots li.slick-active button:before,
+.owl-dots .owl-dot.active span {
+     /* Active dot is solid Green */
+     color: var(--color-green) !important; 
+     background: var(--color-green) !important;
+     opacity: 1 !important;
 }

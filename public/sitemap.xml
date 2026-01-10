@@ -2,59 +2,59 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1314/blog/</loc>
+    <loc>//localhost:62033/blog/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1314/contact/</loc>
+    <loc>//localhost:62033/contact/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1314/faq/</loc>
+    <loc>//localhost:62033/faq/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1314/blog/post-2/</loc>
+    <loc>//localhost:62033/blog/post-2/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1314/blog/post-1/</loc>
+    <loc>//localhost:62033/blog/post-1/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1314/products/</loc>
+    <loc>//localhost:62033/products/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1314/products/taba-cream.1/</loc>
+    <loc>//localhost:62033/products/taba-cream.1/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1314/products/taba-cream.2/</loc>
+    <loc>//localhost:62033/products/taba-cream.2/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1314/products/taba-cream/</loc>
+    <loc>//localhost:62033/products/taba-cream/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1314/products/taba-facewash.1/</loc>
+    <loc>//localhost:62033/products/taba-facewash.1/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1314/products/taba-facewash.2/</loc>
+    <loc>//localhost:62033/products/taba-facewash.2/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1314/products/taba-facewash/</loc>
+    <loc>//localhost:62033/products/taba-facewash/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1314/products/taba-shampoo.1/</loc>
+    <loc>//localhost:62033/products/taba-shampoo.1/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1314/products/taba-shampoo.2/</loc>
+    <loc>//localhost:62033/products/taba-shampoo.2/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1314/products/taba-shampoo/</loc>
+    <loc>//localhost:62033/products/taba-shampoo/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1314/terms-conditions/</loc>
+    <loc>//localhost:62033/terms-conditions/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1314/</loc>
+    <loc>//localhost:62033/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1314/categories/</loc>
+    <loc>//localhost:62033/categories/</loc>
   </url><url>
-    <loc>//localhost:1314/tags/</loc>
+    <loc>//localhost:62033/tags/</loc>
   </url>
 </urlset>

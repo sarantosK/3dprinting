@@ -20,3 +20,79 @@
   position: relative;
   z-index: 1;
 }
+/* --- VANCROFT OVERRIDES --- */
+/* Placing this in custom.css ensures it loads LAST and beats all other styles */
+
+/* 1. BUTTONS: KILL THE BRIGHT GREEN GRADIENT */
+/* The theme uses 'background-image' for gradients. We must set it to 'none'. */
+
+.btn, 
+.btn-primary, 
+.btn-outline-primary, 
+.btn-light {
+    background-image: none !important;
+    background-color: #B7C9A9 !important; /* Sage Green */
+    border-color: #B7C9A9 !important;
+    color: #ffffff !important;
+    box-shadow: none !important;
+}
+
+/* Button Hover Effects - Turning Earth Brown */
+.btn:hover, .btn:active, .btn:focus,
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus,
+.btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:focus {
+    background-image: none !important;
+    background-color: #7B5E4A !important; /* Earth Brown */
+    border-color: #7B5E4A !important;
+    color: #ffffff !important;
+}
+
+/* 2. TEXT ARROWS & ICONS */
+/* This targets the "ti-arrow-circle-right" arrows in your lists */
+.text-primary {
+    color: #B7C9A9 !important;
+}
+
+/* 3. SLIDER ARROWS (Left/Right controls) */
+.slick-arrow, 
+.slick-prev, 
+.slick-next {
+    color: #B7C9A9 !important; /* Makes the arrow icon Sage Green */
+}
+
+/* Hovering over slider arrows */
+.slick-arrow:hover, 
+.slick-prev:hover, 
+.slick-next:hover {
+    color: #7B5E4A !important; /* Earth Brown on hover */
+}
+
+/* 4. OTHER BRIGHT GREEN ELEMENTS */
+/* This catches borders on images, active pagination dots, and input borders */
+
+.border-primary, 
+.img-border::before,
+.form-control:focus,
+.product-slider .slick-list,
+.product-slider .slick-dots li {
+    border-color: #B7C9A9 !important;
+}
+
+/* Pagination Dots (Active) */
+.pagination .page-item.active .page-link,
+.slick-dots li.slick-active button:before {
+    background-color: #B7C9A9 !important;
+    border-color: #B7C9A9 !important;
+    color: #ffffff !important;
+}
+
+/* List Bullets (The small icons next to list items) */
+.content ul li::before {
+    color: #B7C9A9 !important;
+}
+
+/* Background Gradients (The strip behind 'Buy One Get One' section) */
+.bg-gradient {
+    background: #B7C9A9 !important;
+    background-image: none !important;
+}
