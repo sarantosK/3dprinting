@@ -6,8 +6,15 @@
     <description>Recent content in Products on Vancroft</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Oct 2019 11:22:16 +0600</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jan 2024 11:22:16 +0600</lastBuildDate>
     <atom:link href="//localhost:1314/products/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Word Table Light</title>
+      <link>//localhost:1314/products/world-table-light/</link>
+      <pubDate>Wed, 10 Jan 2024 11:22:16 +0600</pubDate>
+      <guid>//localhost:1314/products/world-table-light/</guid>
+      <description>&lt;h3 id=&#34;design--fabrication&#34;&gt;Design &amp;amp; Fabrication&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Designer:&lt;/strong&gt; Studio Word (Seoul)&lt;br&gt;&#xA;&lt;strong&gt;Process:&lt;/strong&gt; Additive Manufacturing (3D Printed)&lt;br&gt;&#xA;&lt;strong&gt;Material:&lt;/strong&gt; Gantri Plant Polymer (Sustainable, heat-resistant)&lt;br&gt;&#xA;&lt;strong&gt;Dimensions:&lt;/strong&gt; 10&amp;quot;H x 7&amp;quot;W x 7&amp;quot;D&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Taba Cream</title>
       <link>//localhost:1314/products/taba-cream.1/</link>

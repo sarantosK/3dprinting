@@ -1,6 +1,6 @@
 ---
-title: "Blog"
-date: 2019-10-17T11:22:16+06:00
+title: "The Journal"
+date: 2026-01-10T11:22:16+06:00
 draft: false
-description : "this is a meta description"
+description : "Insights into industrial design, materiality, and the engineering behind Vancroft."
 ---

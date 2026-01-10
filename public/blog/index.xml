@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Vancroft</title>
-    <link>//localhost:1314/blog/</link>
-    <description>Recent content in Blog on Vancroft</description>
+    <title>The Journal on Vancroft</title>
+    <link>/blog/</link>
+    <description>Recent content in The Journal on Vancroft</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Oct 2019 11:22:16 +0600</lastBuildDate>
-    <atom:link href="//localhost:1314/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jan 2026 10:00:00 +0000</lastBuildDate>
+    <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Human Gut Microbes Could Make Processed Foods Healthier</title>
-      <link>//localhost:1314/blog/post-2/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      <guid>//localhost:1314/blog/post-2/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Lower Back Pain? Self-Administered Acupressure Could Help</title>
-      <link>//localhost:1314/blog/post-1/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      <guid>//localhost:1314/blog/post-1/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore&lt;/p&gt;</description>
+      <title>Redefining the Cockpit: Why Materiality Matters</title>
+      <link>/blog/automotive-precision/</link>
+      <pubDate>Sat, 10 Jan 2026 10:00:00 +0000</pubDate>
+      <guid>/blog/automotive-precision/</guid>
+      <description>&lt;p&gt;Have you ever noticed how a generic accessory can ruin the carefully curated aesthetic of a premium vehicle interior?&lt;/p&gt;&#xA;&lt;p&gt;At &lt;strong&gt;Vancroft&lt;/strong&gt;, we operate on a simple principle: &lt;strong&gt;Cohesion.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

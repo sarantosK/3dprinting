@@ -1,18 +1,17 @@
-
 ############################## navigation ##############################
 [[main]]
-name = "Products"
+name = "Products" # ΑΛΛΑΓΗ: Αντί για Products
 URL = "products/"
 weight = 1
 
 [[main]]
-name = "Blog"
-URL = "blog/"
+name = "Journal"    # ΑΛΛΑΓΗ: Αντί για Blog
+URL = "blog/"       # Προσοχή: Το URL μένει "blog/" για να μη σπάσει η δομή των φακέλων
 weight = 2
 
 [[main]]
-name = "FAQ"
-URL = "faq/"
+name = "Philosophy" # ΑΛΛΑΓΗ: Αντί για FAQ ή About (πιο ταιριαστό)
+URL = "about/"      # Θα πρέπει να φτιάξουμε και μια σελίδα about αν δεν υπάρχει
 weight = 3
 
 [[main]]
@@ -27,19 +26,9 @@ URL = "products/"
 weight = 1
 
 [[footer]]
-name = "Blog"
+name = "Journal"
 URL = "blog/"
 weight = 2
-
-[[footer]]
-name = "FAQ"
-URL = "faq/"
-weight = 3
-
-[[footer]]
-name = "Terms & Conditions"
-URL = "terms-conditions/"
-weight = 4
 
 [[footer]]
 name = "Contact"

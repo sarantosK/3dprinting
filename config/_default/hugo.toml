@@ -73,14 +73,15 @@ link = "plugins/slick/slick.min.js"
 link = "plugins/google-map/gmap.js"
 
 #################### default parameters ################################
+#################### default parameters ################################
 [params]
-# BRANDING UPDATED HERE
-logo = "images/vancroft-logo.jpg"
+# BRANDING UPDATED
+logo = "images/vancroft-logo.png" # ΔΙΟΡΘΩΣΗ: .png αντί για .jpg
 home = "Home"
-description = "Vancroft - Luxury 3D Printed Goods"
-author = "Vancroft"
+description = "Vancroft - Industrial Design & Manufacturing House" # ΑΛΛΑΓΗ: Πιο επαγγελματικό
+author = "Vancroft Engineering"
 
-# Map & Contact (You can update these later)
+# Map & Contact
 gmapAPI = ""
 mapLatitude = "51.5223477"
 mapLongitude = "-0.1622023"
@@ -101,9 +102,10 @@ enable = false
 websiteID = "444334"
 publicKey = "811cf0927332bf51f2e12f84608594ac"
 
+# ΑΛΛΑΓΗ: Ενεργοποίηση Social Media (αν έχεις links βάλε τα εδώ)
 [[params.social]]
 icon = "ti-instagram"
-link = "#"
+link = "https://instagram.com/vancroft" 
 
 [params.contact]
 formAction = "#"

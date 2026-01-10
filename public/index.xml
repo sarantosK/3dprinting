@@ -2,87 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vancroft</title>
-    <link>//localhost:1314/</link>
+    <link>/</link>
     <description>Recent content on Vancroft</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Oct 2019 11:22:16 +0600</lastBuildDate>
-    <atom:link href="//localhost:1314/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jan 2026 10:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Human Gut Microbes Could Make Processed Foods Healthier</title>
-      <link>//localhost:1314/blog/post-2/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      <guid>//localhost:1314/blog/post-2/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore&lt;/p&gt;</description>
+      <title>Word Table Light</title>
+      <link>/products/world-table-light/</link>
+      <pubDate>Wed, 10 Jan 2024 11:22:16 +0600</pubDate>
+      <guid>/products/world-table-light/</guid>
+      <description>&lt;h3 id=&#34;design--fabrication&#34;&gt;Design &amp;amp; Fabrication&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Designer:&lt;/strong&gt; Studio Word (Seoul)&lt;br&gt;&#xA;&lt;strong&gt;Process:&lt;/strong&gt; Additive Manufacturing (3D Printed)&lt;br&gt;&#xA;&lt;strong&gt;Material:&lt;/strong&gt; Gantri Plant Polymer (Sustainable, heat-resistant)&lt;br&gt;&#xA;&lt;strong&gt;Dimensions:&lt;/strong&gt; 10&amp;quot;H x 7&amp;quot;W x 7&amp;quot;D&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Lower Back Pain? Self-Administered Acupressure Could Help</title>
-      <link>//localhost:1314/blog/post-1/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      <guid>//localhost:1314/blog/post-1/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Taba Cream</title>
-      <link>//localhost:1314/products/taba-cream.1/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      <guid>//localhost:1314/products/taba-cream.1/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea&lt;/p&gt;</description>
+      <title>Redefining the Cockpit: Why Materiality Matters</title>
+      <link>/blog/automotive-precision/</link>
+      <pubDate>Sat, 10 Jan 2026 10:00:00 +0000</pubDate>
+      <guid>/blog/automotive-precision/</guid>
+      <description>&lt;p&gt;Have you ever noticed how a generic accessory can ruin the carefully curated aesthetic of a premium vehicle interior?&lt;/p&gt;&#xA;&lt;p&gt;At &lt;strong&gt;Vancroft&lt;/strong&gt;, we operate on a simple principle: &lt;strong&gt;Cohesion.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Taba Cream</title>
-      <link>//localhost:1314/products/taba-cream.2/</link>
+      <link>/products/taba-cream.1/</link>
       <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      <guid>//localhost:1314/products/taba-cream.2/</guid>
+      <guid>/products/taba-cream.1/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea&lt;/p&gt;</description>
     </item>
     <item>
       <title>Taba Cream</title>
-      <link>//localhost:1314/products/taba-cream/</link>
+      <link>/products/taba-cream.2/</link>
       <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      <guid>//localhost:1314/products/taba-cream/</guid>
+      <guid>/products/taba-cream.2/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Taba Cream</title>
+      <link>/products/taba-cream/</link>
+      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
+      <guid>/products/taba-cream/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea&lt;/p&gt;</description>
     </item>
     <item>
       <title>Taba Facewash</title>
-      <link>//localhost:1314/products/taba-facewash.1/</link>
+      <link>/products/taba-facewash.1/</link>
       <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      <guid>//localhost:1314/products/taba-facewash.1/</guid>
+      <guid>/products/taba-facewash.1/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea&lt;/p&gt;</description>
     </item>
     <item>
       <title>Taba Facewash</title>
-      <link>//localhost:1314/products/taba-facewash.2/</link>
+      <link>/products/taba-facewash.2/</link>
       <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      <guid>//localhost:1314/products/taba-facewash.2/</guid>
+      <guid>/products/taba-facewash.2/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea&lt;/p&gt;</description>
     </item>
     <item>
       <title>Taba Facewash</title>
-      <link>//localhost:1314/products/taba-facewash/</link>
+      <link>/products/taba-facewash/</link>
       <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      <guid>//localhost:1314/products/taba-facewash/</guid>
+      <guid>/products/taba-facewash/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea&lt;/p&gt;</description>
     </item>
     <item>
       <title>Taba Shampoo</title>
-      <link>//localhost:1314/products/taba-shampoo.1/</link>
+      <link>/products/taba-shampoo.1/</link>
       <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      <guid>//localhost:1314/products/taba-shampoo.1/</guid>
+      <guid>/products/taba-shampoo.1/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea&lt;/p&gt;</description>
     </item>
     <item>
       <title>Taba Shampoo</title>
-      <link>//localhost:1314/products/taba-shampoo.2/</link>
+      <link>/products/taba-shampoo.2/</link>
       <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      <guid>//localhost:1314/products/taba-shampoo.2/</guid>
+      <guid>/products/taba-shampoo.2/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea&lt;/p&gt;</description>
     </item>
     <item>
       <title>Taba Shampoo</title>
-      <link>//localhost:1314/products/taba-shampoo/</link>
+      <link>/products/taba-shampoo/</link>
       <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      <guid>//localhost:1314/products/taba-shampoo/</guid>
+      <guid>/products/taba-shampoo/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea&lt;/p&gt;</description>
     </item>
   </channel>
